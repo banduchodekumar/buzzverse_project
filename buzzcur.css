@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.hex-grid-column1{
+  display: flex;
+  gap: -14px
+}
+
+.hex-column1 {
+  display: flex;
+  flex-direction: column;
+  gap: -14px;
+}
+
+.hex{
+  width: 85px;
+  height: 75px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  border: 0px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 1.5px; 
+  margin-left: -19px;
+  /* Adjust this value for close vertical alignment */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.hex:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.hex-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hex-grid-column2{
+  display: flex;
+
+}
+
+.hex-column2{
+  display: flex;
+  flex-direction: column;
+}
+
+.hex_hide{
+  width: 85px;
+  height: 75px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1a1a, #1a1a1a);
+  border: 0px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 1.5px; 
+  margin-left: -19px;
+
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+
+.hex img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.hex:hover img {
+  transform: scale(1.05);
+}
+.column2-pading{
+  padding-bottom: 70px;
+
+}
+.column3-pading{
+  padding-top: 77px;
+}
+.column4-pading{
+  padding-bottom: 0px;
+}
+.column5-pading{
+  padding-top: 77px;
+}
+.column6-pading{
+  padding-bottom: 0px;
+}
+.column7-pading{
+  padding-top: 152px;
+}
+.column8-pading{
+  padding-top: 152px;
+}
+.column9-pading{
+  padding-top: 152px;
+}
+.column10-pading{
+  padding-top: 152px;
+}
+.column11-pading{
+  padding-top: 77px;
+}
+.column12-pading{
+  padding-top: 152.4px;
+}
+.column13-pading{
+  padding-top: 77px;
+}
+.column14-pading{
+  padding-top: 152px;
+}
+.column15-pading{
+  padding-bottom: 0px;
+}
+.column16-pading{
+  padding-bottom: 306px;
+}
