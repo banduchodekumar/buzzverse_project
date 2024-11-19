@@ -83,7 +83,7 @@ body {
 }
 
 .hex:hover img {
-  transform: scale(1.05);
+  transform: scale(1.25);
 }
 .column2-pading{
   padding-bottom: 70px;
@@ -130,4 +130,23 @@ body {
 }
 .column16-pading{
   padding-bottom: 306px;
+}
+.company, .ceo {
+  width: 100px; /* Set your desired width */
+  height: auto;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+/* Dimmed by default */
+
+
+.ceo.highlight {
+  opacity: 2; /* Highlight state */
+}
+.ceo.dim {
+  opacity: 0.2; /* Dimmed state for non-matching CEOs */
+}
+.company.dim {
+  opacity: 0.2; /* Dimmed state for non-matching CEOs */
 }
